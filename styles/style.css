@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+    margin: 0
+}
+
+body {
+    display: grid;
+    grid-template-rows: 35% 65%;
+    color: #ffffffe0;
+    font-family: 'Dejavu Sans', Arial, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1,
+h2 {
+    padding: 0;
+}
+
+header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #08122a;
+    padding: 20px;
+}
+
+.avatar {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 10px;
+}
+
+.about h3 {
+    font-size: 22px;
+}
+
+.about p {
+    font-size: 20px;
+}
