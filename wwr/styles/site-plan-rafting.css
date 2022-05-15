@@ -5,7 +5,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #012a4a;
+    --primary-color: #ffffff;
     --secondary-color: #013a63;
     --accent1-color: #01497c;
     --accent2-color: #468faf;
@@ -27,7 +27,7 @@ Fonts are separated by a | */
     --nav-link-color: #ffffff;
     --nav-background-color: #012a4a;
     --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: #01497c;
+    --nav-hover-background-color: #ededf0;
 }
 
 
