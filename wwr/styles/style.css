@@ -35,7 +35,6 @@ footer .social img {
 
 nav {
     background-color: #ededf0;
-    padding: 35px;
 }
 
 nav a {
@@ -48,6 +47,7 @@ nav a {
 }
 
 nav a:hover {
+    padding: 0px 35px;
     background-color: #d2d2d8;
     color: #013a63;
 }
