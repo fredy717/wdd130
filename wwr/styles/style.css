@@ -1,12 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 html,
 body {
+    background-color: #ffffff;
+    font-family: "Ubuntu Condensed";
     height: 100%;
-    margin: 0
+    margin: 0;
+    padding: 0;
+}
+
+footer,
+header {
+    background-color: #d2d2d8;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #177c9c;
+}
+
+footer a:hover {
+    color: #013a63;
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+nav {
+    background-color: #ededf0;
+    padding: 35px;
+}
+
+nav a {
+    padding: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: #177c9c;
+    margin: 0;
+}
+
+nav a:hover {
+    background-color: #d2d2d8;
+    color: #013a63;
+}
+
+h2 {
+    margin: 0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .logo,
 .icon {
     width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.book,
+.join {
+    padding: 15px 30px;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #177c9c;
+    border-radius: 5px;
+}
+
+.book:hover,
+.join:hover {
+    color: #013a63;
+}
+
+.card-img {
+    border: 10px solid #012a4a;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.social {
+    padding-top: 15px;
+}
+
+.msg {
+    padding: 35px;
+    line-height: 1.5em;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg,
+#background {
+    background-color: #ededf0;
+    color: #0d0f10;
 }
 
 #hero-img {
@@ -28,53 +138,6 @@ main section {
     height: 725px;
 }
 
-footer,
-header {
-    background-color: #d2d2d8;
-}
-
-body {
-    background-color: #ffffff;
-}
-
-nav {
-    background-color: #ededf0;
-    padding: 10px 20px 10px 0;
-}
-
-nav a {
-    padding: 10px 20px 10px 0;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 500;
-    color: #177c9c;
-    margin: 0;
-}
-
-nav a:hover {
-    background-color: #d2d2d8;
-    color: #013a63;
-}
-
-footer a,
-.book,
-.join {
-    text-decoration: none;
-    color: #177c9c;
-}
-
-footer a:hover {
-    color: #013a63;
-    text-decoration: underline;
-}
-
-.book:hover,
-.join:hover {
-    color: #013a63;
-}
-
-.msg,
-#background {
-    background-color: #ededf0;
-    color: #0d0f10;
+#logo_link {
+    padding-top: 5px;
 }
