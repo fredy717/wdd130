@@ -42,6 +42,7 @@ nav {
     background-color: #ededf0;
     display: flex;
     justify-content: space-around;
+    z-index: 1;
 }
 
 nav a {
@@ -53,8 +54,18 @@ nav a {
     margin: 0;
 }
 
+
 nav a:hover {
-    padding: 0px 35px;
+    background-color: #d2d2d8;
+    color: #013a63;
+}
+
+.select{
+    padding: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0;
     background-color: #d2d2d8;
     color: #013a63;
 }
@@ -213,6 +224,31 @@ main section {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+
+.articles{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.articles .article:nth-of-type(2n+1) {
+    background-color: #dfdede;
+  }
+
+.article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.article h2{
+    margin-top: 10px;
+}
+
+.article img{
+    width: 250px;
+    padding-right: 20px;
 }
 
 @media screen and (max-width: 900px) {
